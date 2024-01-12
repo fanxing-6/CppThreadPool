@@ -7,8 +7,8 @@ set(THREADPOOL_SRC
 
 message(STATUS "libs ${LIBS}")
 
-set(MOUDLE_NAME "threadpool")
+set(MODULE_NAME "threadpool")
 
-add_library(${MOUDLE_NAME} SHARED ${THREADPOOL_SRC})
+add_library(${MODULE_NAME} SHARED ${THREADPOOL_SRC})
 
-target_link_libraries(${MOUDLE_NAME} PRIVATE ${LIBS})
+target_link_libraries(${MODULE_NAME} PRIVATE ${LIBS})

@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.27)
 project(PoolTest)
 set(TEST_SRC
         test.cpp
+        ../src/thread_pool.cpp
 )
 
 

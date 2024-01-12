@@ -1,9 +1,11 @@
 #include "gtest/gtest.h"
-#include "src/main.h"
+#include <src/thread_pool.h>
+
+
 
 TEST(BasicPoolTest, Test1)
 {
-    EXPECT_EQ(test(), 1);
+    EXPECT_EQ(fx::PoolTest(), 1);
 }
 
 
